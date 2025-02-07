@@ -8,7 +8,7 @@ const MovieSection = ({ title, query }) => (
         <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
           {movies.map((movie) => (
             <div className="col mb-2 text-center px-1" key={movie.imdbID}>
-              <img className="img-fluid" src={movie.Poster} alt={movie.Title} />
+              <img className="img-fluid" src={movie.Poster} alt={movie.Title} style={{ height: "300px" }} />
             </div>
           ))}
         </div>

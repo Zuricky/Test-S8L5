@@ -10,7 +10,7 @@ function App() {
 
       <MovieSection title="Trending Now" query="Harry Potter" />
       <MovieSection title="Watch it Again" query="The Lord of the Rings" />
-      <MovieSection title="New Releases" query="The Hobbit" />
+      <MovieSection title="New Releases" query="Pirates of the Caribbean" />
 
       <MyFooter />
     </>

@@ -2,10 +2,10 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 const TopBar = () => {
   return (
-    <Navbar expand="lg" className="bg-dark" data-bs-theme="dark" style="background-color: #221f1f !important">
+    <Navbar expand="lg" data-bs-theme="dark" style={{ background: "#221f1f" }}>
       <Container fluid>
         <Navbar.Brand href="#">
-          <img src="../assets/img/logo.png" style={{ width: "100px" }} alt="Logo" />
+          <img src="../public/logo.png" style={{ width: "100px" }} alt="Epiflix" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
