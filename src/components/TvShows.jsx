@@ -1,3 +1,5 @@
+import { Grid, Grid3x3 } from "react-bootstrap-icons";
+
 const TvShows = () => {
   return (
     <div className="d-flex align-items-center ps-3 ms-3 mt-4">
@@ -59,6 +61,15 @@ const TvShows = () => {
             </a>
           </li>
         </ul>
+      </div>
+
+      <div className="ms-auto">
+        <a href="#">
+          <Grid size={20} color="white" className="" />
+        </a>
+        <a href="#">
+          <Grid3x3 size={20} color="white" className="ms-4 me-5" />
+        </a>
       </div>
     </div>
   );

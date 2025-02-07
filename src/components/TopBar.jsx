@@ -3,7 +3,7 @@ import { Search, Bell, PersonCircle } from "react-bootstrap-icons";
 
 const TopBar = () => {
   return (
-    <Navbar expand="lg" data-bs-theme="dark" style={{ background: "#221f1f" }}>
+    <Navbar expand="lg" className="ms-3" data-bs-theme="dark" style={{ background: "#221f1f" }}>
       <Container fluid>
         <Navbar.Brand href="https://www.netflix.com/browse" target="_blank">
           <img src="../public/logo.png" style={{ width: "100px" }} alt="Epiflix" />
