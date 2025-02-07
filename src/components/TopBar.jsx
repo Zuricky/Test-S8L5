@@ -5,12 +5,12 @@ const TopBar = () => {
   return (
     <Navbar expand="lg" data-bs-theme="dark" style={{ background: "#221f1f" }}>
       <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="https://www.netflix.com/browse" target="_blank">
           <img src="../public/logo.png" style={{ width: "100px" }} alt="Epiflix" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="">
+          <Nav>
             <Nav.Link href="#">Home</Nav.Link>
             <Nav.Link href="#" active>
               TV Shows

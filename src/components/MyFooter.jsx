@@ -1,3 +1,5 @@
+import { Facebook, Instagram, TwitterX, Youtube } from "react-bootstrap-icons";
+
 const MyFooter = () => {
   return (
     <footer>
@@ -5,10 +7,18 @@ const MyFooter = () => {
         <div className="col col-6">
           <div className="row">
             <div className="col mb-2">
-              <i className="bi bi-facebook footer-icon me-2"></i>
-              <i className="bi bi-instagram footer-icon me-2"></i>
-              <i className="bi bi-twitter-x footer-icon me-2"></i>
-              <i className="bi bi-youtube footer-icon"></i>
+              <a href="https://www.facebook.com/netflix" target="_blank">
+                <Facebook size={20} color="grey" className="mx-2" />
+              </a>
+              <a href="https://www.instagram.com/netflix/" target="_blank">
+                <Instagram size={20} color="grey" className="mx-2" />
+              </a>
+              <a href="https://x.com/netflix" target="_blank">
+                <TwitterX size={20} color="grey" className="mx-2" />
+              </a>
+              <a href="https://www.youtube.com/@Netflix" target="_blank">
+                <Youtube size={20} color="grey" className="mx-2" />
+              </a>
             </div>
           </div>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg 4">
@@ -110,7 +120,7 @@ const MyFooter = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col mb-2 mt-2 copyright">© 1997-2023 Netflix, Inc.</div>
+            <div className="col mb-2 mt-2 copyright">&copy; 1997-2023 Epiflix, Inc.</div>
           </div>
         </div>
       </div>
