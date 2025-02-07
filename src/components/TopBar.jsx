@@ -16,6 +16,15 @@ const TopBar = () => {
             <Nav.Link href="#">Recently Added</Nav.Link>
             <Nav.Link href="#">My List</Nav.Link>
           </Nav>
+
+          <div className="d-flex align-items-center">
+            <i className="bi bi-search icons"></i>
+            <div id="kids" className="fw-bold">
+              KIDS
+            </div>
+            <i className="bi bi-bell icons"></i>
+            <i className="bi bi-person-circle icons"></i>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
