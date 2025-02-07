@@ -3,7 +3,8 @@ import { Facebook, Instagram, TwitterX, Youtube } from "react-bootstrap-icons";
 const MyFooter = () => {
   return (
     <footer>
-      <div className="row justify-content-center mt-5">
+      <hr />
+      <div className="row justify-content-center pt-5">
         <div className="col col-6">
           <div className="row">
             <div className="col mb-2">
@@ -21,7 +22,7 @@ const MyFooter = () => {
               </a>
             </div>
           </div>
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg 4">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-4">
             <div className="col">
               <div className="row">
                 <div className="col footer-links">

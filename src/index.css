@@ -26,6 +26,11 @@ footer {
 }
 
 /* FOOTER */
+footer {
+  max-width: 1891px;
+  margin-top: 150px;
+}
+
 .footer-icon {
   color: #838383;
 }
